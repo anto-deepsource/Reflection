@@ -6,11 +6,11 @@ namespace MrKWatkins.Reflection;
 /// <see href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/accessibility-levels">Accessibility Levels (C# Reference)</see>
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public enum Accessibility
-    {
-            /// <summary>
-            /// Access is limited to the containing type.
-            /// </summary>
-            Private = 0,
+{
+    /// <summary>
+    /// Access is limited to the containing type.
+    /// </summary>
+    Private = 0,
 
     /// <summary>
     /// Access is limited to the containing class or types derived from the containing class within the current assembly.
@@ -32,8 +32,8 @@ public enum Accessibility
     /// </summary>
     ProtectedInternal = 4,
 
-/// <summary>
-/// Access is not restricted.
-/// </summary>
-Public = 5
+    /// <summary>
+    /// Access is not restricted.
+    /// </summary>
+    Public = 5
 }
